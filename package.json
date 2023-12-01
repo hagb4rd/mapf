@@ -1,7 +1,7 @@
 {
   "name": "ea-mapf",
-  "version": "1.0.1",
-  "description": "readline stream map filter transform",
+  "version": "1.0.2",
+  "description": "Read line by line from input stream and compile small javascript lambdas to transform *mapf* or *filter* them. Tiny. No dependencies.",
   "main": "streammapfilter.js",
   "bin": {
     "mapf": "./mapf.js",
@@ -20,7 +20,7 @@
     "stream",
     "map",
     "filter",
-    "tranform"
+    "transform"
   ],
   "author": "amore.fuenfter.stock@gmail.com",
   "license": "MIT",
