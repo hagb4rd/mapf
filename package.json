@@ -1,12 +1,12 @@
 {
   "name": "ea-mapf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "readline stream map filter transform",
   "main": "streammapfilter.js",
   "bin": {
     "mapf": "./mapf.js",
     "filter": "./filter.js",
-    "readlines": "./readlines.js
+    "readlines": "./readlines.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
