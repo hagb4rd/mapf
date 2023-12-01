@@ -1,0 +1,31 @@
+{
+  "name": "ea-mapf",
+  "version": "1.0.0",
+  "description": "readline stream map filter transform",
+  "main": "streammapfilter.js",
+  "bin": {
+    "mapf": "./mapf.js",
+    "filter": "./filter.js",
+    "readlines": "./readlines.js
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hagb4rd/mapf.git"
+  },
+  "keywords": [
+    "readline",
+    "stream",
+    "map",
+    "filter",
+    "tranform"
+  ],
+  "author": "amore.fuenfter.stock@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hagb4rd/mapf/issues"
+  },
+  "homepage": "https://github.com/hagb4rd/mapf#readme"
+}
