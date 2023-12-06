@@ -36,7 +36,6 @@ var split=s=>s+"\n"
 
 //Readable.from(readLine(process.openStdin()))
 readLines(process.openStdin())
-  //.map(compileAll(getArgs()))
   .map(f)
   .map(split)
 //  .compose(join("\n"))

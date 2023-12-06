@@ -7,9 +7,9 @@ var net=require("net")
 var qs=require("querystring")
 var stream = require("node:stream");
 var { Readable, filter, compose, map } = require("node:stream");
-var { readLines, readLine, compile, splt, split, join } = require("./streammapfilter");
+var { readLines, readLine, compile } = require("./streammapfilter");
 var getArgs=()=>process.argv.slice(2)
-var unidecode=require("unidecode")
+//var unidecode=require("unidecode")
 
 
 

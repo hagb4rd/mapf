@@ -29,7 +29,8 @@ USAGE:
 var predicate=(compile(getArgs().join()||"(s)=>String(s).trim().length>0"));
 var split=s=>s+"\n"
 
-//Readable.from(readLine(process.openStdin()))
+//aequivalent to
+//  Readable.from(readLine(process.openStdin()))
 readLines()
 	.filter(predicate)
 	.map(split)
