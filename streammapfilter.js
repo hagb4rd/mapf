@@ -45,7 +45,6 @@ var createContext = exports.createContext = () => {
       ,util:require("node:util")
       //,$:require("ea-1ibs")
       ,getArgs:()=>process.argv.slice(2)
-      ,unidecode:require("unidecode") 
     })
 }
 var compile = exports.compile = (s) => {

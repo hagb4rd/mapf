@@ -1,6 +1,6 @@
 {
   "name": "ea-mapf",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Read line by line from input stream and compile small javascript lambdas to transform *mapf* or *filter* them. Tiny. No dependencies.",
   "main": "streammapfilter.js",
   "bin": {
